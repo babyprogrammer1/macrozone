@@ -17,7 +17,8 @@
         "backgroundImage": "./assets/images/android-icon-background.png",
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.baby_programma.macrozone"
     },
     "web": {
       "output": "static",
@@ -39,6 +40,13 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "4228e861-4fe5-4b0f-a220-5a02a272d646"
+      }
+    },
+    "owner": "baby_programma"
   }
 }
